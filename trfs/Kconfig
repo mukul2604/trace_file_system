@@ -1,0 +1,7 @@
+config TR_FS
+	tristate "trfs stackable file system (EXPERIMENTAL)"
+	help
+	  trfs is a stackable file system which simply passes its
+	  operations to the lower layer.  It is designed as a useful
+	  template for developing or debugging other stackable file systems,
+	  and more (see Documentation/filesystems/trfs.txt).  See
